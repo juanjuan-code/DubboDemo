@@ -1,0 +1,5 @@
+server:
+  port: ${port:8010}
+
+dubbo:
+  config: classpath:dubbo-provider.xml
